@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Cahier des charges technique — REVALYS PROTECT+ 2026 v1</title>
+<style>
+@page {
+  size: A4;
+  margin: 2.2cm 2cm 2cm 2cm;
+}
+html, body {
+  font-family: "Liberation Sans", "Helvetica", "Arial", sans-serif;
+  font-size: 10.5pt;
+  color: #1a1a1a;
+  line-height: 1.45;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 18pt;
+  font-weight: 700;
+  color: #0D1B2A;
+  border-bottom: 2px solid #0D1B2A;
+  padding-bottom: 0.3em;
+  margin: 0 0 0.4em 0;
+}
+.subtitle {
+  font-size: 10pt;
+  color: #555;
+  margin-bottom: 1.5em;
+}
+h2 {
+  font-size: 13pt;
+  font-weight: 700;
+  color: #0D1B2A;
+  margin-top: 1.6em;
+  margin-bottom: 0.5em;
+  page-break-after: avoid;
+}
+h3 {
+  font-size: 11pt;
+  font-weight: 700;
+  margin-top: 1.0em;
+  margin-bottom: 0.3em;
+}
+p {
+  margin: 0.3em 0 0.6em 0;
+  text-align: justify;
+}
+ul, ol {
+  margin: 0.3em 0 0.6em 1.4em;
+  padding: 0;
+}
+li { margin: 0.15em 0; }
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0.6em 0 1em 0;
+  font-size: 9.5pt;
+  page-break-inside: avoid;
+}
+th {
+  background-color: #0D1B2A;
+  color: #fff;
+  text-align: left;
+  padding: 5px 7px;
+  border: 1px solid #0D1B2A;
+  font-weight: 600;
+}
+td {
+  padding: 4px 7px;
+  border: 1px solid #c8c8c8;
+  vertical-align: top;
+}
+tr:nth-child(even) td { background-color: #f5f6f8; }
+strong { color: #0D1B2A; }
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 1.2em 0;
+}
+.callout {
+  background-color: #f3f1e7;
+  border-left: 3px solid #b08400;
+  padding: 6px 10px;
+  margin: 0.6em 0;
+  font-size: 10pt;
+}
+footer {
+  font-size: 8pt;
+  color: #777;
+  text-align: center;
+  margin-top: 1em;
+}
+</style>
+</head>
+<body>
+
+<h1>Cahier des charges technique &mdash; REVALYS PROTECT+ 2026 v1</h1>
+<div class="subtitle">Document de r&eacute;f&eacute;rence projet &mdash; Avril 2026 &mdash; Version 1.0 (avant validation paillasse)</div>
+
+<h2>1. Contexte produit</h2>
+<p>REVALYS d&eacute;veloppe la version 2026 de l'antimousse concentr&eacute; professionnel PROTECT+, destin&eacute; aux supports min&eacute;raux ext&eacute;rieurs (toiture, fa&ccedil;ade, terrasse). Le produit s'inscrit dans la gamme entre FLASH (Step 1, nettoyage) et un futur SHIELD (Step 3, hydrofugation d&eacute;di&eacute;e). Cible&nbsp;: applicateur professionnel France. Conditionnement&nbsp;: bidons PEHD noir 5&nbsp;L et 20&nbsp;L. Application&nbsp;: motopompe 15&ndash;18&nbsp;bar ou pulv&eacute;risateur basse pression 6&ndash;8&nbsp;bar. Concurrents directs&nbsp;: Dalep 2100, Algimouss Algimix, Sika AntiMousse, ParexLanko Net Vert, ATM Algifluid, Guard Industrie.</p>
+
+<h2>2. Objectif technique</h2>
+<p>Antimousse concentr&eacute; &agrave; effet curatif progressif (4&ndash;8 semaines) et r&eacute;manence longue dur&eacute;e. Sans chlore actif, sans acide, sans tensioactif anionique, sans solvant COV classant. Dilutions chantier 1:4 (encrassement fort), 1:7 (moyen, standard), 1:10 (l&eacute;ger). pH spontan&eacute; ma&icirc;tris&eacute; 7,5&ndash;8,5.</p>
+
+<h2>3. Formule finale</h2>
+<p>Architecture aqueuse monophasique. Sans silane. Sans acide.</p>
+<table>
+<thead>
+<tr><th>#</th><th>Composant</th><th>CAS</th><th>% m/m</th><th>% actif</th><th>R&ocirc;le</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>Eau d&eacute;min&eacute;ralis&eacute;e</td><td>7732-18-5</td><td>46,24</td><td>&mdash;</td><td>Solvant</td></tr>
+<tr><td>2</td><td>GLDA Na4 sol. m&egrave;re 47&nbsp;%</td><td>51981-21-6</td><td>1,00</td><td>0,47</td><td>S&eacute;questrant Ca&sup2;&#8314;/Mg&sup2;&#8314;</td></tr>
+<tr><td>3</td><td>BKC C12-16 sol. m&egrave;re 50&nbsp;%</td><td>68424-85-1</td><td>24,00</td><td>12,00</td><td>Biocide cin&eacute;tique</td></tr>
+<tr><td>4</td><td>DDAC sol. m&egrave;re 50&nbsp;%</td><td>7173-51-5</td><td>20,00</td><td>10,00</td><td>Biocide r&eacute;manence</td></tr>
+<tr><td>5</td><td>PolyDADMAC 40&nbsp;% (Mw 100&ndash;150&nbsp;kDa)</td><td>26062-79-3</td><td>2,50</td><td>1,00</td><td>Booster d'accroche cationique</td></tr>
+<tr><td>6</td><td>Lutensol AO9</td><td>68439-50-9</td><td>3,00</td><td>3,00</td><td>Mouillant non-ionique principal</td></tr>
+<tr><td>7</td><td>Glucopon 215 UP</td><td>68515-73-1</td><td>2,50</td><td>2,50</td><td>Mouillant biosourc&eacute;</td></tr>
+<tr><td>8</td><td>Amine oxyde lauryl-DMAO 30&nbsp;%</td><td>1643-20-5</td><td>0,50</td><td>0,15</td><td>Booster wetting + low foam</td></tr>
+<tr><td>9</td><td>NaOH 30&nbsp;% (r&eacute;serve pH)</td><td>1310-73-2</td><td>0&ndash;0,1</td><td>&mdash;</td><td>Ajustement pH process</td></tr>
+<tr><td>10</td><td>BIT 20&nbsp;%</td><td>2634-33-5</td><td>0,10</td><td>0,02</td><td>Conservateur in-can</td></tr>
+<tr><td>11</td><td>Colorant E142 / Acid Green</td><td>4403-90-1</td><td>0,01</td><td>&mdash;</td><td>Traceur visibilit&eacute;</td></tr>
+<tr><td>12</td><td>Antimousse silicone (r&eacute;serve)</td><td>variable</td><td>0&ndash;0,05</td><td>&mdash;</td><td>Process</td></tr>
+</tbody>
+</table>
+<p><strong>&Sigma; QUAT actif total&nbsp;: 22,00&nbsp;%.</strong></p>
+
+<h2>4. Concentrations actives</h2>
+<table>
+<thead>
+<tr><th>Configuration</th><th>BKC actif</th><th>DDAC actif</th><th>&Sigma; QUAT actif</th></tr>
+</thead>
+<tbody>
+<tr><td>Concentr&eacute; (bidon)</td><td>12,00&nbsp;%</td><td>10,00&nbsp;%</td><td>22,00&nbsp;%</td></tr>
+<tr><td>Pulv&eacute; chantier 1:4</td><td>3,00&nbsp;%</td><td>2,50&nbsp;%</td><td>5,50&nbsp;%</td></tr>
+<tr><td>Pulv&eacute; chantier 1:7</td><td>1,71&nbsp;%</td><td>1,43&nbsp;%</td><td>3,14&nbsp;%</td></tr>
+<tr><td>Pulv&eacute; chantier 1:10</td><td>1,20&nbsp;%</td><td>1,00&nbsp;%</td><td>2,20&nbsp;%</td></tr>
+</tbody>
+</table>
+
+<h2>5. Param&egrave;tres cibles</h2>
+<table>
+<thead>
+<tr><th>Param&egrave;tre</th><th>Valeur cible</th></tr>
+</thead>
+<tbody>
+<tr><td>pH (concentr&eacute;, 25&nbsp;&deg;C)</td><td>7,5&ndash;8,5</td></tr>
+<tr><td>Densit&eacute; (20&nbsp;&deg;C)</td><td>~1,02&nbsp;g/mL</td></tr>
+<tr><td>Viscosit&eacute; Brookfield LV</td><td>25&ndash;50&nbsp;mPa&middot;s</td></tr>
+<tr><td>Tension superficielle solution 1:7</td><td>&le;&nbsp;32&nbsp;mN/m</td></tr>
+<tr><td>Aspect</td><td>Liquide limpide vert clair</td></tr>
+</tbody>
+</table>
+
+<h2>6. Proc&eacute;d&eacute; de fabrication</h2>
+<p>Ordre d'incorporation&nbsp;:</p>
+<ol>
+<li>Eau d&eacute;min&eacute;ralis&eacute;e (charge initiale)</li>
+<li>GLDA Na4 47&nbsp;% (dissolution compl&egrave;te)</li>
+<li>BKC C12-16 50&nbsp;% (addition lente)</li>
+<li>DDAC 50&nbsp;% (addition lente)</li>
+<li>PolyDADMAC 40&nbsp;% (addition lente, agitation &le; 300&nbsp;tr/min)</li>
+<li>Lutensol AO9</li>
+<li>Glucopon 215 UP</li>
+<li>Amine oxyde lauryl-DMAO 30&nbsp;%</li>
+<li>Contr&ocirc;le pH&nbsp;; ajustement NaOH 30&nbsp;% uniquement si n&eacute;cessaire</li>
+<li>BIT 20&nbsp;%</li>
+<li>Colorant pr&eacute;-dilu&eacute;</li>
+<li>Antimousse silicone si moussage process g&ecirc;nant</li>
+<li>Eau d&eacute;min&eacute;ralis&eacute;e QSP 100&nbsp;%</li>
+</ol>
+<p>Filtration cartouche 50&nbsp;&micro;m avant conditionnement bidon PEHD noir.</p>
+
+<h2>7. Compatibilit&eacute; mat&eacute;riaux</h2>
+<p>Compatibilit&eacute; attendue avec les supports &agrave; traiter&nbsp;: tuile, ardoise, fibrociment, enduit, b&eacute;ton, pierre calcaire. Risque de voile &agrave; surveiller sur vitrage, ardoise polie et peintures fa&ccedil;ade anciennes &mdash; tests de compatibilit&eacute; mat&eacute;riaux n&eacute;cessaires en validation. Risque mod&eacute;r&eacute; de phytotoxicit&eacute; par ruissellement sur sols v&eacute;g&eacute;talis&eacute;s, &agrave; g&eacute;rer par notice technique applicateur (b&acirc;chage + rin&ccedil;age).</p>
+
+<h2>8. Stabilit&eacute; et stockage</h2>
+<p>Stabilit&eacute; bidon vis&eacute;e&nbsp;: <strong>24 mois &agrave; 5&ndash;30&nbsp;&deg;C</strong>. Stabilit&eacute; conditionn&eacute;e &agrave; validation par vieillissement acc&eacute;l&eacute;r&eacute; 12&nbsp;sem &agrave; 40&nbsp;&deg;C et suivi temps r&eacute;el 24 mois. Conditionnement obligatoire&nbsp;: bidon PEHD noir, joint EPDM ou FKM, &eacute;tanch&eacute;it&eacute; scell&eacute;e d'origine.</p>
+
+<h2>9. Programme de validation</h2>
+<table>
+<thead>
+<tr><th>Phase</th><th>Objet</th><th>Dur&eacute;e</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>Paillasse&nbsp;: compatibilit&eacute; MP, aspect, pH, eau dure 30&nbsp;&deg;f, centrifugation, PEHD</td><td>3 sem</td></tr>
+<tr><td>2</td><td>Vieillissement acc&eacute;l&eacute;r&eacute; 40&nbsp;&deg;C 12 sem + cycles gel/d&eacute;gel + suivi temps r&eacute;el 24 mois</td><td>12 sem + suivi</td></tr>
+<tr><td>3</td><td>Tests biocides EN&nbsp;1276 / EN&nbsp;13697 / EN&nbsp;1650 (laboratoire COFRAC) + tests algues/lichens</td><td>4 sem</td></tr>
+<tr><td>4</td><td>Essais terrain 7 supports, comparatifs vs Dalep / Algimouss / t&eacute;moin, suivi M+3 / M+6 / M+12</td><td>12&ndash;18 mois</td></tr>
+<tr><td>5</td><td>3 lots pilotes 100&nbsp;kg + dossier r&eacute;glementaire + Go/No-Go formel</td><td>4 sem</td></tr>
+</tbody>
+</table>
+<div class="callout">Toute revendication d'efficacit&eacute;, r&eacute;manence ou compatibilit&eacute; doit &ecirc;tre appuy&eacute;e par les rapports de Phase 3 et Phase 4. La cible r&eacute;manence &ge; 18 mois ne doit pas &ecirc;tre utilis&eacute;e commercialement avant validation banc d'essai.</div>
+
+<h2>10. R&eacute;glementaire</h2>
+<ul>
+<li><strong>Cadre</strong>&nbsp;: R&egrave;glement BPR UE 528/2012&nbsp;; produit biocide TP02 et TP10 (&agrave; confirmer selon usages).</li>
+<li><strong>Substances actives</strong>&nbsp;: BKC (CAS 68424-85-1) et DDAC (CAS 7173-51-5)&nbsp;; statut Article 95 ECHA &agrave; v&eacute;rifier au lancement.</li>
+<li><strong>AMM France</strong>&nbsp;: non obtenue &agrave; ce stade. Inscription ANSES via SIMMBAD obligatoire avant commercialisation. Num&eacute;ro d'autorisation &agrave; int&eacute;grer sur &eacute;tiquette.</li>
+<li><strong>FDS</strong>&nbsp;: conforme REACH 1907/2006 + CLP 1272/2008 + format UE 2020/878 (16 sections, FR + EN minimum).</li>
+<li><strong>&Eacute;tiquetage CLP attendu</strong>&nbsp;: concentr&eacute; SGH05 + SGH07 + SGH09 (Acute Tox. 4 / Skin Corr. 1B / Aquatic Acute 1 / Aquatic Chronic 1)&nbsp;; solution dilu&eacute;e 1:7 SGH07 seul. &Agrave; reclasser officiellement apr&egrave;s formulation finale.</li>
+</ul>
+<div class="callout">Le volet r&eacute;glementaire doit &ecirc;tre valid&eacute; par un consultant biocides sp&eacute;cialis&eacute; avant toute mise sur le march&eacute;.</div>
+
+<h2>11. Risques identifi&eacute;s</h2>
+<ul>
+<li>Stabilit&eacute; bidon&nbsp;: interactions QUAT + polym&egrave;re + non-ioniques &agrave; confirmer en 12 sem &agrave; 40&nbsp;&deg;C et suivi temps r&eacute;el 24 mois.</li>
+<li>R&eacute;manence terrain&nbsp;: objectif &ge; 18 mois non d&eacute;montr&eacute;&nbsp;; &agrave; valider par banc d'essai 7 supports sur 12 &agrave; 18 mois.</li>
+<li>Eau dure de chantier&nbsp;: performance et limpidit&eacute; &agrave; confirmer en eau 30&nbsp;&deg;f malgr&eacute; GLDA renforc&eacute;.</li>
+<li>Sourcing PolyDADMAC europ&eacute;en Mw 100&ndash;150&nbsp;kDa&nbsp;: &agrave; qualifier (SNF, Solenis, Kemira).</li>
+<li>Phytotoxicit&eacute; ruissellement&nbsp;: risque mod&eacute;r&eacute; sur sols v&eacute;g&eacute;talis&eacute;s.</li>
+<li>&Eacute;volution r&eacute;glementaire 24&ndash;36 mois&nbsp;: statut TP10 du DDAC, surveillance des &eacute;thoxylates et du BIT &agrave; monitorer.</li>
+<li>Cosm&eacute;tique support&nbsp;: risque de voile sur vitrage, ardoise polie, peintures fa&ccedil;ade anciennes.</li>
+</ul>
+
+<h2>12. Conclusion</h2>
+<p>La formule v1 est op&eacute;rationnelle pour le d&eacute;marrage de la validation paillasse. Aucune performance n'est valid&eacute;e exp&eacute;rimentalement &agrave; ce stade. La revendication r&eacute;manence &ge; 18 mois ne doit pas &ecirc;tre utilis&eacute;e commercialement avant validation banc d'essai. Le dossier r&eacute;glementaire (BPR / ANSES / AMM / FDS / CLP) doit &ecirc;tre valid&eacute; par un consultant sp&eacute;cialis&eacute; biocides avant toute mise sur le march&eacute;.</p>
+
+<footer>Cahier des charges technique &mdash; REVALYS PROTECT+ 2026 v1 &mdash; Document de r&eacute;f&eacute;rence projet &mdash; Confidentiel</footer>
+
+</body>
+</html>

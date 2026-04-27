@@ -1,7 +1,7 @@
-# 00 — Cahier des charges REVALYS PROTECT+ 2026 — Référence v1
+# 00 — Cahier des charges REVALYS PROTECT+ 2026 — Référence v1.1
 
-> Document de référence unique du projet. Issu de l'audit en 8 étapes consolidé en avril 2026.
-> Les fichiers `01_` à `06_` du repo sont historiques (v0) et ne font plus foi.
+> Document de référence unique du projet. Issu de l'audit en 8 étapes (avril 2026).
+> Mise à jour v1.1 : retrait du colorant traceur. Les fichiers v0 sont archivés dans `ARCHIVE/`.
 
 ---
 
@@ -13,11 +13,11 @@ REVALYS développe une nouvelle formulation d'antimousse concentré professionne
 
 Antimousse concentré professionnel à **effet curatif progressif** (4–8 semaines) et **rémanence longue durée** (cible ≥ 18 mois sous réserve validation banc d'essai), supérieur ou au minimum équivalent aux références marché sur efficacité, stabilité bidon, compatibilité matériaux et coût. Sans chlore actif, sans acide, sans tensioactif anionique, sans solvant COV classant. Dilutions chantier 1:4 (encrassement fort) / 1:7 (moyen, standard) / 1:10 (léger). Stabilité bidon cible 24 mois à 5–30 °C. pH spontané maîtrisé 7,5–8,5.
 
-## 3. Formule v1 (concentré, % m/m)
+## 3. Formule v1.1 (concentré, % m/m) — sans colorant
 
 | # | Composant | CAS | % m/m | % actif réel |
 |---|-----------|-----|-------|--------------|
-| 1 | Eau déminéralisée (totale, charge + QSP) | 7732-18-5 | 46,24 | — |
+| 1 | Eau déminéralisée (totale, charge + QSP) | 7732-18-5 | 46,25 | — |
 | 2 | GLDA Na4 sol. mère 47 % | 51981-21-6 | 1,00 | 0,47 |
 | 3 | BKC C12-16 sol. mère 50 % | 68424-85-1 | 24,00 | **12,00** |
 | 4 | DDAC sol. mère 50 % | 7173-51-5 | 20,00 | **10,00** |
@@ -27,9 +27,10 @@ Antimousse concentré professionnel à **effet curatif progressif** (4–8 semai
 | 8 | Amine oxyde lauryl-DMAO sol. mère 30 % | 1643-20-5 | 0,50 | 0,15 |
 | 9 | NaOH 30 % (réserve pH process) | 1310-73-2 | 0–0,1 | — |
 | 10 | BIT sol. mère 20 % (conservateur in-can) | 2634-33-5 | 0,10 | 0,02 |
-| 11 | Colorant E142 / Acid Green | 4403-90-1 | 0,01 | — |
-| 12 | Antimousse silicone process (réserve) | variable | 0–0,05 | — |
+| 11 | Antimousse silicone process (réserve) | variable | 0–0,05 | — |
 | **Total** | | | **100,00** | **Σ QUAT actif = 22,00** |
+
+> **Évolution v1 → v1.1** : retrait du colorant traceur E142 / Acid Green (était à 0,01 %). Le bidon PEHD noir et l'étiquetage suffisent à l'identification. L'eau QSP passe de 46,24 à 46,25 %. Le reste de la formule est inchangé.
 
 **Densité cible ~1,02 g/mL. pH spontané 7,5–8,5. Architecture aqueuse monophasique, sans silane, sans acide.**
 
@@ -47,8 +48,7 @@ Antimousse concentré professionnel à **effet curatif progressif** (4–8 semai
 | Glucopon 215 UP (2,5 %) | Tensioactif non-ionique biosourcé | Pénétration porosité minérale, profil éco | APG biodégradable > 90 % en 28 j |
 | GLDA Na4 (0,47 % actif) | Séquestrant biodégradable Ca²⁺/Mg²⁺ | Maintient l'activité QUAT en eau dure de chantier | Doublé vs v0 pour eau jusqu'à 35 °f |
 | BIT (0,02 % actif) | Conservateur in-can (antifongique) | Filet de sécurité microbio (BKC/DDAC déjà bactéricides) | Sous le seuil de classification du mélange |
-| Colorant E142 / Acid Green (0,01 %) | Traceur de visibilité chantier | Identifie la zone traitée | Hydrosoluble, stable cation |
-| Eau déminéralisée (46,24 %) | Solvant primaire | Vecteur des actifs | Conductivité < 5 µS/cm obligatoire |
+| Eau déminéralisée (46,25 %) | Solvant primaire | Vecteur des actifs | Conductivité < 5 µS/cm obligatoire |
 
 ## 5. Choix techniques validés
 
@@ -59,10 +59,11 @@ Antimousse concentré professionnel à **effet curatif progressif** (4–8 semai
 - **GLDA augmenté à 1 % sol. mère (vs 0,5 % v0)** : sécurise la performance terrain en eau dure jusqu'à 30–35 °f (cas standard chantier France).
 - **pH spontané 7,5–8,5, sans acide ajouté** : zone optimale pour la stabilité des QUATs ; passive aluminium / zinc / cuivre ; ne dissout pas la pierre calcaire ni la chaux des enduits récents ; **différenciateur direct vs Algimouss** acidifié.
 
-## 6. Écarts v0 → v1
+## 6. Écarts v0 → v1.1
 
-| Élément | v0 (initiale) | v1 (retenue) | Raison |
-|---------|----------------|---------------|--------|
+| Élément | v0 (initiale) | v1.1 (retenue) | Raison |
+|---------|----------------|------------------|--------|
+| Colorant traceur E142 | 0,01 % | **0 % (retiré v1 → v1.1)** | Bidon PEHD noir + étiquetage suffisent à l'identification ; supprime un additif, simplifie la FDS |
 | Σ QUAT actif | 28 % (BKC 20 + DDAC 8) | **22 %** (BKC 12 + DDAC 10) | Saturation adsorption substrat, suppression surdosage, COGS optimisé |
 | Ratio BKC / DDAC | 2,5 / 1 (BKC dominant) | **1,2 / 1** (rééquilibré rémanence) | Valoriser la rémanence DDAC pour positionnement premium longue durée |
 | Silane oligomère (BS 1306) | 6 % | **0 % (retiré)** | Effet hydrofuge non mesurable à dose intégrable + risque gélification + antagonisme PolyDADMAC |
@@ -72,4 +73,39 @@ Antimousse concentré professionnel à **effet curatif progressif** (4–8 semai
 
 ---
 
-> Suite (parties 3 à 6) à produire sur ta demande.
+## 7. Contraintes réglementaires
+
+- **Cadre BPR (UE 528/2012)** : produit biocide. Types de produits visés **TP02 (désinfection surfaces non-alimentaires) et TP10 (matériaux de construction)** à confirmer selon usages revendiqués.
+- **Substances actives BKC C12-16 (CAS 68424-85-1) et DDAC (CAS 7173-51-5)** : statut **Article 95 ECHA à vérifier au lancement** (fournisseur producteur ou importateur autorisé).
+- **AMM / Autorisation de mise sur le marché France** : **non obtenue à ce stade**. Inscription ANSES via SIMMBAD obligatoire avant commercialisation, numéro d'autorisation à intégrer sur étiquette dès délivrance.
+- **FDS conforme REACH (1907/2006) + CLP (1272/2008) + format UE 2020/878** : à produire avant commercialisation (16 sections, version FR + EN).
+- **Étiquetage H/P** : classification du concentré attendue (Acute Tox. 4 / Skin Corr. 1B / Aquatic Acute 1 / Aquatic Chronic 1 → SGH05+07+09) ; classification de la solution diluée chantier 1:7 attendue plus légère (Skin Irrit. 2 / Eye Irrit. 2 / Aq. Chronic 3 → SGH07). **À reclasser officiellement après formulation finale.**
+- **Validation par consultant réglementaire spécialisé biocides obligatoire avant lancement** (Toxalys, ChemSafe, Carl Roth Consulting ou équivalent) — point critique.
+
+## 8. Risques critiques
+
+- **Rémanence ≥ 18 mois non démontrée à ce stade** — objectif à valider en banc d'essai terrain (12 à 18 mois minimum). **Toute revendication commerciale interdite avant validation.**
+- **Stabilité formule** — interactions QUAT cationique / polymère PolyDADMAC / tensioactifs non-ioniques à valider en stabilité accélérée 40 °C 12 sem + cycles gel/dégel + suivi temps réel 24 mois.
+- **Efficacité variable selon support** — performance et rémanence à valider sur les 7 supports cibles (tuile, ardoise, fibrociment, enduit hydraulique, enduit monocouche, béton, pierre calcaire).
+- **Acceptabilité client** — odeur résiduelle légèrement aminée des QUATs, traces éventuelles sur supports lisses (vitrage, ardoise polie) à évaluer en essais terrain.
+- **Risque réglementaire** si allégations efficacité, rémanence ou hydrofugation utilisées commercialement avant validation des tests correspondants.
+
+## 9. Plan de validation
+
+- **Phase 1 — Paillasse (3 sem)** : compatibilité MP, aspect, pH spontané, dilution eau dure 30 °f, centrifugation, compatibilité PEHD.
+- **Phase 2 — Vieillissement accéléré (12 sem)** : 40 °C ± 1 °C, suivi aspect / pH / viscosité / dosage actifs ; cycles gel/dégel –5/+25 °C ×3 ; suivi temps réel ambiante 24 mois en parallèle.
+- **Phase 3 — Tests biocides** : EN 1276 (bactéricide), EN 13697 (surface), EN 1650 (fongicide) à dilutions 1:7 et 1:10 en laboratoire accrédité COFRAC ; tests internes algues / lichens / cyanobactéries.
+- **Phase 4 — Essais terrain 7 supports** : application en banc d'essai exposition extérieure, comparatifs vs Dalep / Algimouss / témoin eau, suivi photo + colorimétrie à J+30 / J+90 / M+6 / M+12 / M+18.
+- **Phase 5 — Validation finale avant commercialisation** : 3 lots pilotes industriels 100 kg, dossier réglementaire complet (FDS + ANSES + étiquette), Go/No-Go formel.
+
+## 10. Prochaines actions prioritaires
+
+- **Lancer la formulation labo v1** sur 30–50 g (essais miniatures, 2–3 variantes ratio).
+- **Démarrer le protocole de stabilité accélérée** (étuve 40 °C, échantillonnage prévu).
+- **Identifier et contractualiser le partenaire réglementaire** (consultant FDS + dossier biocide ANSES).
+- **Préparer la FDS provisoire v1** sur la base de la formulation actée pour anticiper les sections critiques.
+- **Sélectionner 2 à 3 sites pilotes terrain** (chantiers applicateurs partenaires) pour le suivi rémanence M+12.
+
+---
+
+**Fin du cahier des charges v1.** Document de référence unique du projet jusqu'à la validation finale et sa mise à jour en v2.
