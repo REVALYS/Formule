@@ -72,4 +72,39 @@ Antimousse concentré professionnel à **effet curatif progressif** (4–8 semai
 
 ---
 
-> Suite (parties 3 à 6) à produire sur ta demande.
+## 7. Contraintes réglementaires
+
+- **Cadre BPR (UE 528/2012)** : produit biocide. Types de produits visés **TP02 (désinfection surfaces non-alimentaires) et TP10 (matériaux de construction)** à confirmer selon usages revendiqués.
+- **Substances actives BKC C12-16 (CAS 68424-85-1) et DDAC (CAS 7173-51-5)** : statut **Article 95 ECHA à vérifier au lancement** (fournisseur producteur ou importateur autorisé).
+- **AMM / Autorisation de mise sur le marché France** : **non obtenue à ce stade**. Inscription ANSES via SIMMBAD obligatoire avant commercialisation, numéro d'autorisation à intégrer sur étiquette dès délivrance.
+- **FDS conforme REACH (1907/2006) + CLP (1272/2008) + format UE 2020/878** : à produire avant commercialisation (16 sections, version FR + EN).
+- **Étiquetage H/P** : classification du concentré attendue (Acute Tox. 4 / Skin Corr. 1B / Aquatic Acute 1 / Aquatic Chronic 1 → SGH05+07+09) ; classification de la solution diluée chantier 1:7 attendue plus légère (Skin Irrit. 2 / Eye Irrit. 2 / Aq. Chronic 3 → SGH07). **À reclasser officiellement après formulation finale.**
+- **Validation par consultant réglementaire spécialisé biocides obligatoire avant lancement** (Toxalys, ChemSafe, Carl Roth Consulting ou équivalent) — point critique.
+
+## 8. Risques critiques
+
+- **Rémanence ≥ 18 mois non démontrée à ce stade** — objectif à valider en banc d'essai terrain (12 à 18 mois minimum). **Toute revendication commerciale interdite avant validation.**
+- **Stabilité formule** — interactions QUAT cationique / polymère PolyDADMAC / tensioactifs non-ioniques à valider en stabilité accélérée 40 °C 12 sem + cycles gel/dégel + suivi temps réel 24 mois.
+- **Efficacité variable selon support** — performance et rémanence à valider sur les 7 supports cibles (tuile, ardoise, fibrociment, enduit hydraulique, enduit monocouche, béton, pierre calcaire).
+- **Acceptabilité client** — odeur résiduelle légèrement aminée des QUATs, traces éventuelles sur supports lisses (vitrage, ardoise polie) à évaluer en essais terrain.
+- **Risque réglementaire** si allégations efficacité, rémanence ou hydrofugation utilisées commercialement avant validation des tests correspondants.
+
+## 9. Plan de validation
+
+- **Phase 1 — Paillasse (3 sem)** : compatibilité MP, aspect, pH spontané, dilution eau dure 30 °f, centrifugation, compatibilité PEHD.
+- **Phase 2 — Vieillissement accéléré (12 sem)** : 40 °C ± 1 °C, suivi aspect / pH / viscosité / dosage actifs ; cycles gel/dégel –5/+25 °C ×3 ; suivi temps réel ambiante 24 mois en parallèle.
+- **Phase 3 — Tests biocides** : EN 1276 (bactéricide), EN 13697 (surface), EN 1650 (fongicide) à dilutions 1:7 et 1:10 en laboratoire accrédité COFRAC ; tests internes algues / lichens / cyanobactéries.
+- **Phase 4 — Essais terrain 7 supports** : application en banc d'essai exposition extérieure, comparatifs vs Dalep / Algimouss / témoin eau, suivi photo + colorimétrie à J+30 / J+90 / M+6 / M+12 / M+18.
+- **Phase 5 — Validation finale avant commercialisation** : 3 lots pilotes industriels 100 kg, dossier réglementaire complet (FDS + ANSES + étiquette), Go/No-Go formel.
+
+## 10. Prochaines actions prioritaires
+
+- **Lancer la formulation labo v1** sur 30–50 g (essais miniatures, 2–3 variantes ratio).
+- **Démarrer le protocole de stabilité accélérée** (étuve 40 °C, échantillonnage prévu).
+- **Identifier et contractualiser le partenaire réglementaire** (consultant FDS + dossier biocide ANSES).
+- **Préparer la FDS provisoire v1** sur la base de la formulation actée pour anticiper les sections critiques.
+- **Sélectionner 2 à 3 sites pilotes terrain** (chantiers applicateurs partenaires) pour le suivi rémanence M+12.
+
+---
+
+**Fin du cahier des charges v1.** Document de référence unique du projet jusqu'à la validation finale et sa mise à jour en v2.
