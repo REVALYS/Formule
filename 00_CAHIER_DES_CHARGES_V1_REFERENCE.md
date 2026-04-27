@@ -1,7 +1,7 @@
-# 00 — Cahier des charges REVALYS PROTECT+ 2026 — Référence v1
+# 00 — Cahier des charges REVALYS PROTECT+ 2026 — Référence v1.1
 
-> Document de référence unique du projet. Issu de l'audit en 8 étapes consolidé en avril 2026.
-> Les fichiers `01_` à `06_` du repo sont historiques (v0) et ne font plus foi.
+> Document de référence unique du projet. Issu de l'audit en 8 étapes (avril 2026).
+> Mise à jour v1.1 : retrait du colorant traceur. Les fichiers v0 sont archivés dans `ARCHIVE/`.
 
 ---
 
@@ -13,11 +13,11 @@ REVALYS développe une nouvelle formulation d'antimousse concentré professionne
 
 Antimousse concentré professionnel à **effet curatif progressif** (4–8 semaines) et **rémanence longue durée** (cible ≥ 18 mois sous réserve validation banc d'essai), supérieur ou au minimum équivalent aux références marché sur efficacité, stabilité bidon, compatibilité matériaux et coût. Sans chlore actif, sans acide, sans tensioactif anionique, sans solvant COV classant. Dilutions chantier 1:4 (encrassement fort) / 1:7 (moyen, standard) / 1:10 (léger). Stabilité bidon cible 24 mois à 5–30 °C. pH spontané maîtrisé 7,5–8,5.
 
-## 3. Formule v1 (concentré, % m/m)
+## 3. Formule v1.1 (concentré, % m/m) — sans colorant
 
 | # | Composant | CAS | % m/m | % actif réel |
 |---|-----------|-----|-------|--------------|
-| 1 | Eau déminéralisée (totale, charge + QSP) | 7732-18-5 | 46,24 | — |
+| 1 | Eau déminéralisée (totale, charge + QSP) | 7732-18-5 | 46,25 | — |
 | 2 | GLDA Na4 sol. mère 47 % | 51981-21-6 | 1,00 | 0,47 |
 | 3 | BKC C12-16 sol. mère 50 % | 68424-85-1 | 24,00 | **12,00** |
 | 4 | DDAC sol. mère 50 % | 7173-51-5 | 20,00 | **10,00** |
@@ -27,9 +27,10 @@ Antimousse concentré professionnel à **effet curatif progressif** (4–8 semai
 | 8 | Amine oxyde lauryl-DMAO sol. mère 30 % | 1643-20-5 | 0,50 | 0,15 |
 | 9 | NaOH 30 % (réserve pH process) | 1310-73-2 | 0–0,1 | — |
 | 10 | BIT sol. mère 20 % (conservateur in-can) | 2634-33-5 | 0,10 | 0,02 |
-| 11 | Colorant E142 / Acid Green | 4403-90-1 | 0,01 | — |
-| 12 | Antimousse silicone process (réserve) | variable | 0–0,05 | — |
+| 11 | Antimousse silicone process (réserve) | variable | 0–0,05 | — |
 | **Total** | | | **100,00** | **Σ QUAT actif = 22,00** |
+
+> **Évolution v1 → v1.1** : retrait du colorant traceur E142 / Acid Green (était à 0,01 %). Le bidon PEHD noir et l'étiquetage suffisent à l'identification. L'eau QSP passe de 46,24 à 46,25 %. Le reste de la formule est inchangé.
 
 **Densité cible ~1,02 g/mL. pH spontané 7,5–8,5. Architecture aqueuse monophasique, sans silane, sans acide.**
 
@@ -47,8 +48,7 @@ Antimousse concentré professionnel à **effet curatif progressif** (4–8 semai
 | Glucopon 215 UP (2,5 %) | Tensioactif non-ionique biosourcé | Pénétration porosité minérale, profil éco | APG biodégradable > 90 % en 28 j |
 | GLDA Na4 (0,47 % actif) | Séquestrant biodégradable Ca²⁺/Mg²⁺ | Maintient l'activité QUAT en eau dure de chantier | Doublé vs v0 pour eau jusqu'à 35 °f |
 | BIT (0,02 % actif) | Conservateur in-can (antifongique) | Filet de sécurité microbio (BKC/DDAC déjà bactéricides) | Sous le seuil de classification du mélange |
-| Colorant E142 / Acid Green (0,01 %) | Traceur de visibilité chantier | Identifie la zone traitée | Hydrosoluble, stable cation |
-| Eau déminéralisée (46,24 %) | Solvant primaire | Vecteur des actifs | Conductivité < 5 µS/cm obligatoire |
+| Eau déminéralisée (46,25 %) | Solvant primaire | Vecteur des actifs | Conductivité < 5 µS/cm obligatoire |
 
 ## 5. Choix techniques validés
 
@@ -59,10 +59,11 @@ Antimousse concentré professionnel à **effet curatif progressif** (4–8 semai
 - **GLDA augmenté à 1 % sol. mère (vs 0,5 % v0)** : sécurise la performance terrain en eau dure jusqu'à 30–35 °f (cas standard chantier France).
 - **pH spontané 7,5–8,5, sans acide ajouté** : zone optimale pour la stabilité des QUATs ; passive aluminium / zinc / cuivre ; ne dissout pas la pierre calcaire ni la chaux des enduits récents ; **différenciateur direct vs Algimouss** acidifié.
 
-## 6. Écarts v0 → v1
+## 6. Écarts v0 → v1.1
 
-| Élément | v0 (initiale) | v1 (retenue) | Raison |
-|---------|----------------|---------------|--------|
+| Élément | v0 (initiale) | v1.1 (retenue) | Raison |
+|---------|----------------|------------------|--------|
+| Colorant traceur E142 | 0,01 % | **0 % (retiré v1 → v1.1)** | Bidon PEHD noir + étiquetage suffisent à l'identification ; supprime un additif, simplifie la FDS |
 | Σ QUAT actif | 28 % (BKC 20 + DDAC 8) | **22 %** (BKC 12 + DDAC 10) | Saturation adsorption substrat, suppression surdosage, COGS optimisé |
 | Ratio BKC / DDAC | 2,5 / 1 (BKC dominant) | **1,2 / 1** (rééquilibré rémanence) | Valoriser la rémanence DDAC pour positionnement premium longue durée |
 | Silane oligomère (BS 1306) | 6 % | **0 % (retiré)** | Effet hydrofuge non mesurable à dose intégrable + risque gélification + antagonisme PolyDADMAC |

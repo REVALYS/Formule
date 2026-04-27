@@ -1,57 +1,59 @@
 # REVALYS PROTECT+ 2026 — Dossier de formulation
 
-**Antimousse concentré professionnel toiture, façade et supports minéraux extérieurs**
-**Effet curatif progressif — rémanence ≥ 18 mois — micro-effet hydrofuge intégré**
+**Antimousse concentré professionnel toiture, façade et supports minéraux extérieurs.**
 
-> Document de travail R&D — branche `claude/revalys-protect-formulation-OtArd`
-> Statut : v0 — formulation cible avant essais labo
+> Branche de travail : `claude/revalys-protect-formulation-OtArd`
+> Statut : **formule v1.1** — base actée pour démarrage Phase 1 paillasse
 > Auteur : Direction R&D REVALYS, Sablé-sur-Sarthe
-> Date : avril 2026
 
 ---
 
-## 1. Synthèse exécutive (10 lignes)
+## 1. Structure du repo
 
-REVALYS PROTECT+ 2026 est un **antimousse cationique binaire BKC + DDAC à 28 % d'actif total**, boosté par un polymère cationique (PolyDADMAC) pour la rémanence et complété par un **silane hydrosoluble pré-hydrolysé (octyltriéthoxysilane oligomérique)** délivrant un micro-effet hydrofuge invisible sans film. Le système tensioactif est **100 % non-ionique** (alcool gras éthoxylé C12-14 EO9 + APG C8-10) pour préserver la cationicité des biocides. La formule est **sans acide** (pas d'acide lactique, glycolique ni citrique), ce qui élimine la contribution H332 d'Algimouss et tout risque corrosif sur métaux légers en cas de contact accidentel. pH spontané attendu 7,5–8,5, densité ~1,02, viscosité fluide pulvérisable. Concentré classé **H302 / H314 / H400 / H410** (équivalent Dalep et Algimouss, inévitable au-dessus de 5 % BKC), **mais solution chantier à dilution 1:7 retombe en H315 / H319 / H412** (SGH07 seul). COGS estimé 1,80–2,30 €/L concentré, **prix de vente cible 7,50 €/L HT** sortie d'usine, marge brute 65–70 %. Go industriel recommandé en **formulation propre sous-traitée chez façonnier inox 316L** plutôt qu'en marque blanche : la rente concurrentielle vient de la combinaison QUAT binaire + PolyDADMAC + silane oligomère, qu'aucun OEM grand public ne maîtrise et qui ne se retrouve pas chez Dalep, Parex, Algimouss ni Sika.
-
----
-
-## 2. Index des livrables
-
-| # | Fichier | Contenu |
-|---|---------|---------|
-| 1 | [`01_FORMULATION.md`](./01_FORMULATION.md) | Tableau formulation finale, mécanismes d'action, paramètres physicochimiques cibles |
-| 2 | [`02_HYDROFUGE_STRATEGIE.md`](./02_HYDROFUGE_STRATEGIE.md) | Stratégies d'intégration hydrofuge évaluées, choix retenu, justification |
-| 3 | [`03_BENCHMARK.md`](./03_BENCHMARK.md) | Analyse complète Dalep / Parex / Algimouss / Sika / ATM / Guard, argumentaire différenciation |
-| 4 | [`04_PROTOCOLE_RD.md`](./04_PROTOCOLE_RD.md) | Plan d'essais labo, stabilité accélérée, performance biocide, tests chantier, corrosion |
-| 5 | [`05_REGLEMENTAIRE_FDS.md`](./05_REGLEMENTAIRE_FDS.md) | Statut BPR par actif, classification CLP concentré + dilué, checklist FDS 2020/878, risques 24–36 mois |
-| 6 | [`06_INDUSTRIALISATION_ROI.md`](./06_INDUSTRIALISATION_ROI.md) | Vigilances production, COGS détaillé, prix de vente, marge, arbitrage formulation propre vs marque blanche |
+| Fichier | Contenu | Statut |
+|---------|---------|--------|
+| `00_CAHIER_DES_CHARGES_V1_REFERENCE.md` | Cahier des charges complet v1.1 (10 sections) | Référence projet |
+| `01_FORMULE_V1_1.md` | Formule v1.1 détaillée + concentrations actives + paramètres cibles | Référence labo |
+| `02_PROTOCOLE_PAILLASSE.md` | Protocole Phase 1 paillasse (intègre les 3 corrections audit) | Référence labo |
+| `03_AUDIT_CRITIQUE.md` | Audit critique v1.1 + section corrections intégrées | Référence projet |
+| `09_SYNTHESE_COURTE.md` | Synthèse 1 page (formule, points forts, risques, budget, actions) | Document décisionnel |
+| `CAHIER_DES_CHARGES_PROTECT_2026_v1.html` | Cahier des charges technique mise en page A4 (source) | Livrable externe |
+| `CAHIER_DES_CHARGES_PROTECT_2026_v1.pdf` | Cahier des charges technique PDF A4 | Livrable externe |
+| `ARCHIVE/` | Anciennes versions v0 conservées pour traçabilité | Historique |
 
 ---
 
-## 3. Décisions structurantes (résumé)
+## 2. Évolution v1 → v1.1
+
+- Retrait du colorant traceur E142 / Acid Green (était à 0,01 %).
+- Eau QSP ajustée de 46,24 % à 46,25 %.
+- Aucune autre modification de formule.
+- 3 corrections critiques intégrées au protocole paillasse :
+  1. Test stabilité dilution 1:7 en eau dure 30 °f stockée 48 h.
+  2. Test pulvérisabilité réelle (pulvé 6–8 bar + motopompe 15–18 bar).
+  3. Critère sédiment redispersable < 30 s d'agitation = acceptable.
+- 2 simplifications du protocole : tension superficielle sur variante référence uniquement, densité sur top 3 uniquement.
+
+---
+
+## 3. Décisions structurantes
 
 | Décision | Choix | Pourquoi |
 |---|---|---|
-| Architecture biocide | Binaire BKC + DDAC (20 % + 8 % m/m actifs) | Synergie membrane + rémanence, dépasse le mono-actif Dalep |
-| Booster rémanence | PolyDADMAC 1 % actif | Accroche cationique multipoint sur supports anioniques minéraux |
-| Acidification | **AUCUNE** (contrainte client) | Préservation métaux + suppression H332 vs Algimouss |
-| Tensioactifs | 100 % non-ioniques (Lutensol AO9 + Glucopon 215 UP) | Compatibilité QUATs cationiques, biosourçage partiel |
-| Hydrofuge | Octyltriéthoxysilane pré-hydrolysé hydrosoluble (Wacker SILRES BS 1306) à 6 % | Pas d'émulsifiant, pas de film visible, compatible cation |
-| Séquestrant | GLDA Na4 (Dissolvine GL-47-S) | Biodégradable, profil éco supérieur EDTA |
+| Architecture biocide | Binaire BKC 12 % + DDAC 10 % actifs (Σ 22 %) | Cinétique curative + rémanence, sans surdosage |
+| Booster rémanence | PolyDADMAC 1 % actif (Mw 100–150 kDa) | Accroche cationique multipoint sur substrat minéral |
+| Acidification | Aucune | Préservation métaux légers, pierres calcaires, enduits récents |
+| Tensioactifs | 100 % non-ioniques (Lutensol AO9 + Glucopon 215 UP + amine oxyde) | Compatibilité QUAT, low foam motopompe |
+| Hydrofuge | Aucun (reporté sur produit SHIELD séparé) | Effet non mesurable à dose intégrable + risque stabilité |
+| Séquestrant | GLDA Na4 1 % sol. mère | Biodégradable, eau dure jusqu'à 30–35 °f |
 | Conservateur | BIT 20 % à 0,1 % | Hors MIT/CMIT, faible risque sensibilisation |
-| Régulateur pH | NaOH 30 % en **réserve uniquement** | pH spontané déjà en spec |
-| Conditionnement | PEHD noir 5 L et 20 L | Anti-UV, étanche aux QUATs |
+| Conditionnement | PEHD noir 5 L et 20 L, joint EPDM ou FKM | Anti-UV, étanche QUATs |
+| Colorant | **Aucun (v1.1)** | Bidon noir + étiquetage suffisent |
 
 ---
 
-## 4. Hors scope confirmé
+## 4. Niveau de validation
 
-Non utilisés conformément au cahier des charges :
-- Hypochlorite, chlore actif, eau de Javel
-- **Aucun acide** (lactique, citrique, glycolique, sulfonique, phosphorique)
-- Tensioactifs anioniques (LAS, SLES, sulfates, sulfonates)
-- Solvants organiques classants COV
-- Terbutryn (voir [`05_REGLEMENTAIRE_FDS.md`](./05_REGLEMENTAIRE_FDS.md) pour justification)
-- OIT (peu pertinent TP10, ratio coût/bénéfice défavorable)
-- Copie directe d'une formule concurrente
+> **Aucune performance n'est validée expérimentalement à ce stade.**
+> La revendication rémanence ≥ 18 mois ne doit pas être utilisée commercialement avant validation banc d'essai.
+> Le volet réglementaire (BPR / ANSES / AMM / FDS / CLP) doit être validé par un consultant spécialisé biocides avant toute mise sur le marché.

@@ -1,6 +1,7 @@
-# 09 — Synthèse courte REVALYS PROTECT+ 2026 v1
+# 09 — Synthèse courte REVALYS PROTECT+ 2026 v1.1
 
-> Source unique : `00_CAHIER_DES_CHARGES_V1_REFERENCE.md`.
+> Source : `00_CAHIER_DES_CHARGES_V1_REFERENCE.md` et `01_FORMULE_V1_1.md`.
+> v1.1 : retrait du colorant traceur. Aucune autre modification de formule.
 
 ## 1. Formule retenue
 
@@ -15,7 +16,7 @@ Antimousse concentré professionnel, **architecture aqueuse monophasique sans si
 | Lutensol AO9 + Glucopon 215 UP + amine oxyde | 6,0 | 5,65 |
 | GLDA Na4 47 % | 1,0 | 0,47 |
 | BIT 20 % (conservateur) | 0,1 | 0,02 |
-| Eau déminéralisée + traceur + réserves | 46,4 | — |
+| Eau déminéralisée + réserves (NaOH + antimousse process) | 46,4 | — |
 
 **pH spontané 7,5–8,5. Densité ~1,02. Dilutions chantier 1:4 / 1:7 / 1:10.**
 

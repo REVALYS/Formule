@@ -1,7 +1,21 @@
-# 08 — Audit consolidé REVALYS PROTECT+ 2026 — Formule v1 finale
+# 03 — Audit critique REVALYS PROTECT+ 2026 — Formule v1.1
 
-> Source unique : `00_CAHIER_DES_CHARGES_V1_REFERENCE.md`.
+> Source : `00_CAHIER_DES_CHARGES_V1_REFERENCE.md` et `01_FORMULE_V1_1.md`.
 > Document factuel, à compléter par les rapports d'essais paillasse, stabilité, biocidie et terrain.
+
+## 0. Corrections intégrées suite audit
+
+Les trois corrections ci-dessous sont actées et reportées dans le protocole paillasse `02_PROTOCOLE_PAILLASSE.md`.
+
+| # | Correction | Action |
+|---|------------|--------|
+| 1 | Test « Stabilité dilution 1:7 en eau dure 30 °f stockée 48 h » | **Ajouté au protocole** — observation à T+24 h et T+48 h : précipité, voile, ΔpH. Critère : limpide, ΔpH ≤ 0,3. |
+| 2 | Test « Pulvérisabilité réelle » | **Ajouté au protocole** — pulvérisateur 6–8 bar + motopompe 15–18 bar, buse 1,2 mm, lot 5 L. Observer débit, cône, régularité, absence de bouchage. |
+| 3 | Critère sédiment | **Modifié** — sédiment redispersable en moins de 30 s d'agitation = acceptable (était : aucun sédiment toléré). Évite des No-Go faussement bloquants. |
+
+Simplifications associées :
+- Tension superficielle mesurée uniquement sur la variante de référence V1 (au lieu de toutes).
+- Densité mesurée uniquement sur les top 3 variantes après pré-sélection (au lieu de toutes).
 
 ## 1. Contexte & objectif
 
@@ -9,11 +23,11 @@ REVALYS développe la version 2026 de l'antimousse concentré professionnel PROT
 
 Objectif fonctionnel : antimousse concentré à effet curatif progressif (4–8 semaines) et rémanence longue durée. **Cible rémanence ≥ 18 mois sous réserve validation banc d'essai — non revendicable commercialement à ce stade.** Sans chlore actif, sans acide, sans tensioactif anionique, sans solvant COV classant. Dilutions chantier 1:4 / 1:7 / 1:10. Stabilité bidon visée 24 mois à 5–30 °C. pH spontané maîtrisé 7,5–8,5.
 
-## 2. Formule v1 retenue
+## 2. Formule v1.1 retenue
 
 | # | Composant | CAS | % m/m | % actif réel |
 |---|-----------|-----|-------|--------------|
-| 1 | Eau déminéralisée (totale, charge + QSP) | 7732-18-5 | 46,24 | — |
+| 1 | Eau déminéralisée (totale, charge + QSP) | 7732-18-5 | 46,25 | — |
 | 2 | GLDA Na4 sol. mère 47 % | 51981-21-6 | 1,00 | 0,47 |
 | 3 | BKC C12-16 sol. mère 50 % | 68424-85-1 | 24,00 | 12,00 |
 | 4 | DDAC sol. mère 50 % | 7173-51-5 | 20,00 | 10,00 |
@@ -23,8 +37,7 @@ Objectif fonctionnel : antimousse concentré à effet curatif progressif (4–8 
 | 8 | Amine oxyde lauryl-DMAO sol. mère 30 % | 1643-20-5 | 0,50 | 0,15 |
 | 9 | NaOH 30 % (réserve pH process) | 1310-73-2 | 0–0,1 | — |
 | 10 | BIT sol. mère 20 % (conservateur in-can) | 2634-33-5 | 0,10 | 0,02 |
-| 11 | Colorant E142 / Acid Green | 4403-90-1 | 0,01 | — |
-| 12 | Antimousse silicone process (réserve) | variable | 0–0,05 | — |
+| 11 | Antimousse silicone process (réserve) | variable | 0–0,05 | — |
 | **Total** | | | **100,00** | **Σ QUAT actif = 22,00** |
 
 Architecture aqueuse monophasique. **Sans silane. Sans acide.** Densité cible ~1,02 g/mL.
@@ -55,15 +68,16 @@ Architecture aqueuse monophasique. **Sans silane. Sans acide.** Densité cible ~
 
 - Séquestrant biodégradable Ca²⁺/Mg²⁺/Fe³⁺ ; doublé vs v0 pour absorber les eaux de chantier dures jusqu'à 30–35 °f sans déstabiliser le système.
 
-## 4. Écarts v0 → v1
+## 4. Écarts v0 → v1.1
 
-| Élément | v0 | v1 | Raison |
-|---------|----|----|--------|
+| Élément | v0 | v1.1 | Raison |
+|---------|----|------|--------|
 | Σ QUAT actif | 28 % (BKC 20 + DDAC 8) | 22 % (BKC 12 + DDAC 10) | Saturation adsorption substrat, suppression surdosage, COGS optimisé |
 | Ratio BKC / DDAC | 2,5 / 1 | 1,2 / 1 | Rééquilibrage vers la rémanence |
 | Silane oligomère (BS 1306) | 6 % | 0 % (retiré) | Effet hydrofuge non mesurable à dose intégrable, risque gélification, antagonisme PolyDADMAC |
 | GLDA séquestrant | 0,5 % sol. mère | 1,0 % sol. mère | Sécurise comportement en eau dure |
 | Amine oxyde lauryl-DMAO | absent | 0,5 % | Booster wetting + régulateur de mousse |
+| Colorant E142 / Acid Green | 0,01 % | 0 % (retiré v1 → v1.1) | Bidon PEHD noir + étiquetage suffisent ; simplifie la FDS |
 | Positionnement hydrofuge | Intégré PROTECT+ | Reporté sur SHIELD séparé | Permet un dosage hydrofuge correct et préserve la stabilité du PROTECT+ |
 
 ## 5. Performances attendues (avec limites)
@@ -109,7 +123,7 @@ Budget global indicatif : programme R&D ~55 k€ + réglementaire/packaging/lanc
 
 ## 9. Conclusion opérationnelle
 
-La formule v1 est **opérationnelle pour démarrage de la validation paillasse**. Les choix techniques (binaire BKC+DDAC à 22 %, ratio 1,2/1, PolyDADMAC 1 %, trio non-ionique, GLDA renforcé, sans silane, sans acide) sont cohérents et tracés vers les contraintes du cahier des charges.
+La formule v1.1 est **opérationnelle pour démarrage de la validation paillasse**. Les choix techniques (binaire BKC+DDAC à 22 %, ratio 1,2/1, PolyDADMAC 1 %, trio non-ionique, GLDA renforcé, sans silane, sans acide, sans colorant) sont cohérents et tracés vers les contraintes du cahier des charges.
 
 À ce stade :
 - Aucune performance n'est validée expérimentalement.
